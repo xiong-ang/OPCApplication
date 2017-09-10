@@ -1,0 +1,37 @@
+// SignalGen.idl : IDL source for SignalGen
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (SignalGen.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(240F5B88-4F54-4DCB-AD4A-D70AEB15375B),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ISignal : IDispatch{
+    [id(1)] HRESULT getSignal_Y1([in] DOUBLE t, [out] VARIANT ** signalValue);
+    [id(2)] HRESULT getSignal_Y2([in] DOUBLE t, [out] VARIANT ** signalValue);
+    [id(3)] HRESULT getSignal_Y3([in] DOUBLE t, [out] VARIANT ** signalValue);
+};
+[
+	uuid(2953B92E-170F-4825-B85E-F34FBBB17EC8),
+	version(1.0),
+]
+library SignalGenLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(767D45A8-F76B-4BE9-BD94-3BD87202835D)		
+	]
+	coclass Signal
+	{
+		[default] interface ISignal;
+	};
+};
+

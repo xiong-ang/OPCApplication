@@ -1,0 +1,85 @@
+F:\vc program\OPCApplication\Client\bin\Debug\Client.exe.config
+F:\vc program\OPCApplication\Client\obj\Debug\Client.exe
+F:\vc program\OPCApplication\Client\obj\Debug\Client.pdb
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\Client.exe.config
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\Interop.OPCServerLib.dll
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\OPCClient.csproj.ResolveComReference.cache
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\Client.exe
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\Client.pdb
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\Client.exe
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\Client.pdb
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\GalaSoft.MvvmLight.dll
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\LiveCharts.dll
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\LiveCharts.Wpf.dll
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\System.Windows.Interactivity.dll
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\GalaSoft.MvvmLight.pdb
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\GalaSoft.MvvmLight.xml
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\LiveCharts.pdb
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\LiveCharts.xml
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\LiveCharts.Wpf.pdb
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\LiveCharts.Wpf.xml
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\vc program\OPCApplication - done7\OPCClient\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\OPCClient.csprojResolveAssemblyReference.cache
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\Controls\ChartControl.g.cs
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\View\MainWindow.g.cs
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\Controls\GaugeControl.g.cs
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\App.g.cs
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\Client_MarkupCompile.cache
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\Client_MarkupCompile.lref
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\Controls\ChartControl.baml
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\StyleTemplate.baml
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\View\MainWindow.baml
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\Controls\GaugeControl.baml
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\Client.g.resources
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\Client.Properties.Resources.resources
+F:\vc program\OPCApplication - done7\OPCClient\obj\Debug\OPCClient.csproj.GenerateResource.Cache
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\Client.exe.config
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\Client.exe
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\Client.pdb
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\GalaSoft.MvvmLight.dll
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\LiveCharts.dll
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\LiveCharts.Wpf.dll
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\System.Windows.Interactivity.dll
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\GalaSoft.MvvmLight.pdb
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\GalaSoft.MvvmLight.xml
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\LiveCharts.pdb
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\LiveCharts.xml
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\LiveCharts.Wpf.pdb
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\LiveCharts.Wpf.xml
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\OPCClient.csprojResolveAssemblyReference.cache
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\Interop.OPCServerLib.dll
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\OPCClient.csproj.ResolveComReference.cache
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\Controls\ChartControl.g.cs
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\View\MainWindow.g.cs
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\Controls\GaugeControl.g.cs
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\App.g.cs
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\Client_MarkupCompile.cache
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\Client_MarkupCompile.lref
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\Controls\ChartControl.baml
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\StyleTemplate.baml
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\View\MainWindow.baml
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\Controls\GaugeControl.baml
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\Client.g.resources
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\Client.Properties.Resources.resources
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\OPCClient.csproj.GenerateResource.Cache
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\Client.exe
+E:\研究生\研究生\公司资料\Code\OPCApplication\OPCClient\obj\Debug\Client.pdb

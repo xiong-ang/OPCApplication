@@ -1,0 +1,15 @@
+F:\vc program\OPCApplication - done7\ServerTest_CS\bin\Debug\ServerTest_CS.exe.config
+F:\vc program\OPCApplication - done7\ServerTest_CS\bin\Debug\ServerTest_CS.exe
+F:\vc program\OPCApplication - done7\ServerTest_CS\bin\Debug\ServerTest_CS.pdb
+F:\vc program\OPCApplication - done7\ServerTest_CS\obj\Debug\Interop.OPCServerLib.dll
+F:\vc program\OPCApplication - done7\ServerTest_CS\obj\Debug\ServerTest_CS.csproj.ResolveComReference.cache
+F:\vc program\OPCApplication - done7\ServerTest_CS\obj\Debug\ServerTest_CS.exe
+F:\vc program\OPCApplication - done7\ServerTest_CS\obj\Debug\ServerTest_CS.pdb
+E:\研究生\研究生\公司资料\Code\OPCApplication\ServerTest_CS\bin\Debug\ServerTest_CS.exe.config
+E:\研究生\研究生\公司资料\Code\OPCApplication\ServerTest_CS\bin\Debug\ServerTest_CS.exe
+E:\研究生\研究生\公司资料\Code\OPCApplication\ServerTest_CS\bin\Debug\ServerTest_CS.pdb
+E:\研究生\研究生\公司资料\Code\OPCApplication\ServerTest_CS\obj\Debug\ServerTest_CS.csprojResolveAssemblyReference.cache
+E:\研究生\研究生\公司资料\Code\OPCApplication\ServerTest_CS\obj\Debug\Interop.OPCServerLib.dll
+E:\研究生\研究生\公司资料\Code\OPCApplication\ServerTest_CS\obj\Debug\ServerTest_CS.csproj.ResolveComReference.cache
+E:\研究生\研究生\公司资料\Code\OPCApplication\ServerTest_CS\obj\Debug\ServerTest_CS.exe
+E:\研究生\研究生\公司资料\Code\OPCApplication\ServerTest_CS\obj\Debug\ServerTest_CS.pdb

@@ -1,0 +1,16 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {EC97389A-3A49-4695-9369-07D73C0F2EF3} = s 'OPCGroup Class'
+		{
+			ForceRemove Programmable
+			LocalServer32 = s '%MODULE%'
+			{
+				val ServerExecutable = s '%MODULE_RAW%'
+			}
+			TypeLib = s '{BC417206-8F02-40C8-88C2-3BB1225B1B1C}'
+			Version = s '1.0'
+		}
+	}
+}

@@ -1,0 +1,161 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Client" x:Class="Client.MainWindow"
+        xmlns:res="clr-namespace:Client.Properties"
+        Title="{x:Static res:Resources.WINDOW_TITLE}" 
+        Height="650" Width="1200" MinWidth="750" MinHeight="500" 
+        WindowStartupLocation="CenterScreen"
+        BorderThickness="0"
+        BorderBrush="White">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../StyleTemplate.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="#FF0691E0" Offset="1"/>
+                <GradientStop Color="#FFFAFAFA"/>
+                <GradientStop Color="#FF811048"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" Margin="10,10,5,10" CornerRadius="8,8,8,8">
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFDDE8E4" Offset="1"/>
+                        <GradientStop Color="#FFA2D6C5"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <Grid Margin="0,0,0,0" Background="Transparent">
+                    <Label Content="{x:Static res:Resources.CONTROL_PANEL}"  HorizontalContentAlignment="Center" Height="50" VerticalAlignment="Top" Margin="5,5,5,0" Background="White"
+                   VerticalContentAlignment="Center" FontSize="22" FontWeight="Bold" />
+                    <ComboBox ToolTip="{x:Static res:Resources.SET_SIMPLING_PERIOD}" ItemsSource="{Binding SamplingPeriodItem}" SelectedIndex="{Binding SamplingPeriodIndex}"
+                      FontSize="12" VerticalContentAlignment="Center" Height="35" Margin="190,80,5,0" VerticalAlignment="Top"/>
+                    <CheckBox Content="{x:Static res:Resources.SINUSOIDAL_SIGNAL}" ToolTip="{x:Static res:Resources.SIM_SIN}" IsChecked="{Binding Signal_Y1_Input,Mode=TwoWay}" Template="{StaticResource CheckBoxTemplate}"
+                      HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="200" Margin="20,180,0,0"/>
+                    <CheckBox Content="{x:Static res:Resources.SQUARE_SIGNAL}" ToolTip="{x:Static res:Resources.SIM_SQU}" IsChecked="{Binding Signal_Y2_Input,Mode=TwoWay}" Template="{StaticResource CheckBoxTemplate}"
+                      HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="200" Margin="20,205,0,0"/>
+                    <CheckBox Content="{x:Static res:Resources.TRIANGLE_SIGNAL}" ToolTip="{x:Static res:Resources.SIM_TRI}" IsChecked="{Binding Signal_Y3_Input,Mode=TwoWay}" Template="{StaticResource CheckBoxTemplate}"
+                      HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="200" Margin="20,230,0,0"/>
+                    <Button ToolTip="{x:Static res:Resources.START_STOP_TIP}" Margin="5,0,5,70" Height="55" VerticalAlignment="Bottom" 
+                    Command="{Binding Start_StopCommand}" Template="{StaticResource Start_StopButtonTemplate}"/>
+
+                    <Button ToolTip="{x:Static res:Resources.SAVE_TIP}" IsEnabled="{Binding SaveEnabled}" Command="{Binding SaveCommand}"
+                    Template="{StaticResource SaveButtonTemplate}" Margin="5,0,5,5"  Height="55" VerticalAlignment="Bottom"/>
+
+                    <Label Content="{x:Static res:Resources.SIMPLING_PERIOD}" Height="35" FontSize="18" Margin="10,80,77,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                    <Label Content="{x:Static res:Resources.INPUT_SIGNALS}" HorizontalAlignment="Left" Height="35" Margin="10,140,0,0" VerticalAlignment="Top" Width="200" FontSize="18" FontWeight="Bold"/>
+
+                </Grid>
+            </Border>
+            <Border Grid.Column="1" Margin="5,10,10,10" CornerRadius="8,8,8,8">
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFDDE8E4" Offset="1"/>
+                        <GradientStop Color="#FFA2D6C5"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <Grid Margin="0,0,0,0" Background="Transparent" >
+                    <TabControl Background="Transparent" BorderThickness="0,0,0,0">
+                        <TabControl.Resources>
+                            <Style TargetType="{x:Type TabPanel}">
+                                <Setter Property="HorizontalAlignment" Value="Center" />
+                            </Style>
+                        </TabControl.Resources>
+                        <TabItem Header="{x:Static res:Resources.SIGNAL_CHANGE_CH}" ToolTip="{x:Static res:Resources.SHOW_SIGNAL_CHANGE}" Height="50" FontWeight="Bold" FontSize="18" Background="#FF9ACBBB">
+                            <Grid Background="GhostWhite"  Margin="0,0,0,0">
+                                <local:ChartControl Margin="0,0,0,0" InputSimplingPoint="{Binding SignalSimplingPoint}"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="{x:Static res:Resources.SIGNAL_VALUE_GA}" ToolTip="{x:Static res:Resources.SHOW_SIGNAL_VALUE}" Height="50" FontWeight="Bold" FontSize="18" Background="#FF9ACBBB">
+                            <Grid Margin="0,0,0,0">
+                                <Grid.Background>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#FFDDE8E4" Offset="1"/>
+                                        <GradientStop Color="#FFA2D6C5"/>
+                                    </LinearGradientBrush>
+                                </Grid.Background>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0"  Margin="0,0,5,0">
+                                    <Grid.Background>
+                                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                            <GradientStop Color="Black"/>
+                                            <GradientStop Color="White" Offset="0.435"/>
+                                        </LinearGradientBrush>
+                                    </Grid.Background>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="30" />
+                                        <RowDefinition Height="40" />
+                                    </Grid.RowDefinitions>
+                                    <Label Content="{x:Static res:Resources.SINUSOIDAL_SIGNAL}" Grid.Row="2"  VerticalAlignment="Center" HorizontalContentAlignment="Center" FontSize="22" FontWeight="Bold"/>
+                                    <Label x:Name="Label1" Foreground="Red" Grid.Row="1" Content="{Binding SignalSimplingPoint.Signal_Y1}" 
+                               VerticalAlignment="Center" HorizontalContentAlignment="Center" FontSize="18"/>
+                                    <local:GaugeControl Margin="5,5,5,5" Grid.Row="0" InputValue="{Binding SignalSimplingPoint.Signal_Y1}"/>
+                                </Grid>
+                                <Grid Grid.Column="1" Margin="5,0,5,0">
+                                    <Grid.Background>
+                                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                            <GradientStop Color="Black"/>
+                                            <GradientStop Color="White" Offset="0.435"/>
+                                        </LinearGradientBrush>
+                                    </Grid.Background>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="30" />
+                                        <RowDefinition Height="40" />
+                                    </Grid.RowDefinitions>
+                                    <Label Content="{x:Static res:Resources.SQUARE_SIGNAL}" Grid.Row="2"  VerticalAlignment="Center" HorizontalContentAlignment="Center" FontSize="22" FontWeight="Bold"/>
+                                    <Label x:Name="Label2" Foreground="Red" Grid.Row="1" Content="{Binding SignalSimplingPoint.Signal_Y2}" 
+                               VerticalAlignment="Center" HorizontalContentAlignment="Center" FontSize="18"/>
+                                    <local:GaugeControl Margin="5,5,5,5" Grid.Row="0" InputValue="{Binding SignalSimplingPoint.Signal_Y2}"/>
+                                </Grid>
+                                <Grid Grid.Column="2" Margin="5,0,0,0">
+                                    <Grid.Background>
+                                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                            <GradientStop Color="Black"/>
+                                            <GradientStop Color="White" Offset="0.435"/>
+                                        </LinearGradientBrush>
+                                    </Grid.Background>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="30" />
+                                        <RowDefinition Height="40" />
+                                    </Grid.RowDefinitions>
+                                    <Label Content="{x:Static res:Resources.TRIANGLE_SIGNAL}" Grid.Row="2"  VerticalAlignment="Center" HorizontalContentAlignment="Center" FontSize="22" FontWeight="Bold"/>
+                                    <Label x:Name="Label3" Foreground="Red" Grid.Row="1" Content="{Binding SignalSimplingPoint.Signal_Y3}" 
+                               VerticalAlignment="Center" HorizontalContentAlignment="Center" FontSize="18"/>
+                                    <local:GaugeControl Margin="5,5,5,5" Grid.Row="0" InputValue="{Binding SignalSimplingPoint.Signal_Y3}"/>
+                                </Grid>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </Border>
+        </Grid>
+        <Label Content="{Binding StatusTip}" Grid.Row="1" Margin="0,0,0,0" FontSize="14" FontWeight="Bold" VerticalContentAlignment="Center" Foreground="White" Background="#FF28B9F0" />
+
+
+
+    </Grid>
+
+</Window>

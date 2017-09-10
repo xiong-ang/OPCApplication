@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>LiveCharts.Wpf</id>
+    <version>0.9.5</version>
+    <title>LiveCharts.Wpf</title>
+    <authors>Beto Rodriguez</authors>
+    <owners>Beto Rodriguez</owners>
+    <licenseUrl>https://github.com/beto-rodriguez/Live-Charts/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>http://lvcharts.net/</projectUrl>
+    <iconUrl>http://lvcharts.net/Content/Images/Logos/lcred.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple, flexible, interactive and powerful data visualization for Wpf</description>
+    <summary />
+    <releaseNotes>See https://github.com/beto-rodriguez/Live-Charts/releases</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>livechart live chart charting plot plots plotting graph graphs graphing data wpf windows presentation foundation format</tags>
+    <dependencies>
+      <dependency id="LiveCharts" version="0.9.5" />
+    </dependencies>
+  </metadata>
+</package>
