@@ -10,7 +10,7 @@ This is a C/S syetem by OPC DA.
 
 ### Project Overview
 
-![Project Overview](Pic/2.PNG)
+![Project Overview](Pic/2.png)
 
 ### Technologies Used
 1. C++
