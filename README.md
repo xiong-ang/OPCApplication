@@ -6,7 +6,14 @@ This is a C/S syetem by OPC DA.
 
 ### UI
 
-![](){ImgCap}{/ImgCap}
+![UI](Pic/1.PNG)
 
 ### Project Overview
-11111
+
+![Project Overview](Pic/2.PNG)
+
+### Technologies Used
+1. C++
+2. C#/WPF
+3. COM
+4. OPC DA
